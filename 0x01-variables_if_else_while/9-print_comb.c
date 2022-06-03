@@ -1,27 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry point
- * 
- * Return: Always 0 (Success)
+ * main - function
+ *
+ * Return: 0
  */
-
 int main(void)
 {
-	int d;
+	int x = '0';
 
-	for (d = '0'; d <= '9'; d++)
+	while (x <= '9')
 	{
-		putchar(d);
-		if (d != '9')
+		putchar(x);
+		if (x != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		x++;
 	}
-	putchar('\n');
 
+	putchar(10);
 	return (0);
 }
