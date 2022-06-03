@@ -26,7 +26,8 @@ int main(void)
 					}
 					coma = 0;
 					putchar(a + '0');
-					putchar(a + '0');
+					putchar(b + '0');
+					putchar(c + '0');
 				}
 				++c;
 			}
