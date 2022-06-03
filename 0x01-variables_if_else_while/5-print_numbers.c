@@ -12,7 +12,6 @@ int main(void)
 	{
 		if (c != 'q' && c != 'e')
 			putchar(c);
-	for (num = 0; num < 10; num++)
 		c++;
 	}
 	putchar("\n");
