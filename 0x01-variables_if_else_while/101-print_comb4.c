@@ -1,43 +1,39 @@
+#include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - main function
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int coma = 1;
+	int a, b, c;
 
-	while (a <= 9)
+	for (a = '0' ; a <= '7' ; )
 	{
-		while (b <= 9)
+		for (b = '0' ; b <= '8' ; )
 		{
-			while (c <= 9)
+			for (c = '0' ; c <= '9' ; )
 			{
 				if (a < b && b < c)
 				{
-					if (coma == 0)
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (!(a == '7' && b == '8' && c == '9'))
 					{
 						putchar(',');
-						putchar(32);
+						putchar(' ');
 					}
-					coma = 0;
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(c + '0');
 				}
-				++c;
+				c++;
 			}
-			++b;
-			c = 0;
+			b++;
 		}
-		++a;
-		b = 0
+		a++;
 	}
-	putchar(10);
-
+	putchar('\n');
 	return (0);
 }
