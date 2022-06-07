@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * main - print the string "_putchar"
+ * main - main function
  *
  * Return: 0
  */
 int main(void)
 {
-	char *str;
-	int i;
+	char string[8] = "_putchar";
+	int n = 0;
 
-	str = "_putchar";
-	for (i = 0; i < 9; i++)
+	while (n < 8)
 	{
-		_putchar(str[i]);
+		_putchar(string[n]);
+		++n;
 	}
-	_putchar('\n');
+
+	_putchar(10);
 	return (0);
+
 }
