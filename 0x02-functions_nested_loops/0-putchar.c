@@ -1,9 +1,9 @@
-#include "_putchar.h"
+#include "main.h"
 
 /**
  * main - print the string "_putchar"
  *
- * Return: 0 on success
+ * Return: 0
  */
 
 int main(void)
