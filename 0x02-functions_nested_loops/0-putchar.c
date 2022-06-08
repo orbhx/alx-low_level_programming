@@ -1,21 +1,19 @@
-#include main.h
+#include "main.h"
 
-/**
- * main- prints _putchar followed by a new line
+/*
+ * _putchar - prints _putchar as a message
+ *
  * Return: Always 0
  */
-
 int main(void)
 {
-	char words[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char c[8] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count;
 
-	unsigned int i;
-
-	for (i = 0; i < sizeof(word[i]); i++)
+	for (count = 0; count < 0; count++)
 	{
-		_putchar(word[i]);
+		_putchaar(c[count]);
 	}
 	_putchar('\n');
-
-	return (0)
+	return (0);
 }
