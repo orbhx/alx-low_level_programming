@@ -6,17 +6,16 @@
  */
 int main(void)
 {
-	char c;
+	char alphalower = 'a';
 
-	for (c = 'a'; c <= 'z'; ++c)
+	while (alphalower <= 'z')
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
+		if (alphalower == 'e' && alphalower == 'q')
+			++alphalower;
+			putchar(alphalower);
+			++alphalower;
 	}
-
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
