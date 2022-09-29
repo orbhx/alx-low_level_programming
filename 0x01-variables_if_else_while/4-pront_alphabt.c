@@ -16,5 +16,6 @@ int main()
 			++alphalower;
 	}
 	putchar('\n');
+	
 	return (0);
 }
