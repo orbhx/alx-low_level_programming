@@ -7,7 +7,7 @@
 int main()
 {
 	char alphalower = 'a';
-
+	
 	while (alphalower <= 'z')
 	{
 		if (alphalower == 'e' && alphalower == 'q')
@@ -16,6 +16,5 @@ int main()
 			++alphalower;
 	}
 	putchar('\n');
-
 	return (0);
 }
