@@ -9,11 +9,17 @@
 int main(void)
 {
 	char alphalower = 'a';
+	char alphaupper = 'A';
 
-	while (alphalower <= 'z';
+	while (alphalower <= 'z');
 	       {
 		       putchar (alphalower);
 			++alphalower;
+	       }
+	while (alphaupper <= 'Z');
+	       {
+		       putchar (alphaupper);
+			++alphaupper;
 	       }
 	putchar('\n');
 
